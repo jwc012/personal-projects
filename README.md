@@ -13,8 +13,5 @@ This is coded in Java.
 
 http://fancysqueeze.com/
 
-## peer-street-ruby
-This project, which is programmed in Ruby, uses the US Government’s HUD & Census data to build a small API for retrieving population growth based on a zip code.
-
 ## vending-machine
 A OOD design, in Java, of a vending machine.
