@@ -15,3 +15,7 @@ http://fancysqueeze.com/
 
 ## vending-machine
 A OOD design, in Java, of a vending machine.
+
+## ji-chung
+- A personal website to showcase my professional and personal experiences
+- My personal journey
