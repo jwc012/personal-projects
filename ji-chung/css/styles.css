@@ -1,19 +1,67 @@
+.divider {
+    background-image: url(../img/1_black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.divider > .greeting{
+    /* top, right & left, bottom */
+    padding: 144px 24px 25px;
+}
+
+.divider > .introduction{
+    /* top, right, bottom, left */
+    margin: 0px 25% 0px 25%;
+}
+
+.first-body {
+    /* top & bottom, left & right */
+    padding: 40px 10%;
+    text-align: center;
+}
+
+.first-body > .title {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.first-body > .subtitle {
+    margin-bottom: 24px;
+    font-weight: 300;
+    font-size: x-large;
+}
+
 .nav-item.nav-link button {
-    background-color: royalblue;
+    background-color: black;
     border: none;
     color: white;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
 }
 
-.nav-item.nav-link button button:hover {
-    background-color: rgb(42, 86, 218);
-}
-
-.navbar-nav a:hover {
-    color: royalblue;
+.nav-item.nav-link button:hover {
+    background-color: darkblue;
 }
 
 .navbar-nav {
+    /* right-aligning it */
     margin-left: auto;
 }
+
+.top-header {
+    /* top, right, bottom, left */
+    padding: 20px 10% 15px 10%;
+}
+
+/* 
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display: none;
+}
+
+.navbar-toggler>.close {
+    display: inline;
+} */
