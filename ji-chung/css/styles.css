@@ -1,3 +1,7 @@
+.d-md-flex.h-md-100.align-items-center {
+    transform: translateY(-50px);
+}
+
 .divider {
     background-image: url(../img/1_black.jpg);
     background-repeat: no-repeat;
