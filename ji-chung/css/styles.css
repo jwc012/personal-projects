@@ -84,11 +84,11 @@ footer {
     margin-left: auto;
 }
 
-.perspective {
+.description-title {
     color: black;
 }
 
-.perspective:hover {
+.description-title:hover {
     text-decoration: none;
     color: rgb(69, 69, 69);
 }
