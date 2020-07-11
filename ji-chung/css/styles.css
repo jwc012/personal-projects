@@ -67,6 +67,16 @@ footer {
     font-size: large;
 }
 
+.list-title {
+    margin-bottom: 8px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.list-unstyled > li{
+    margin-bottom: 5px;
+}
+
 .nav-item.nav-link button {
     background-color: black;
     border: none;
