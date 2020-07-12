@@ -1,58 +1,81 @@
+/* Adding a black background image */
 footer {
     background-image: url(../img/black.png);
 }
 
+/* For the two columns */
 .col-md-6 {
     background-color: white;
     border: black outset;
     border-width: thin;
 }
 
+/* For the first/left column */
 .col-md-6.left {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
+/* For the second/right column */
 .col-md-6.right {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
+/* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
+    /* For the first/left column */
     .col-md-6.left {
         /* top-left, top-right, bottom-right, bottom-left */
         border-radius: 15px 15px 0px 0px;
     }
-    
+    /* For the second/right column */
     .col-md-6.right {
         border-radius: 0px 0px 15px 15px;
     }
 }
 
+/* Moving the two columns up, to be above the second section image */
 .container {
     transform: translateY(-10%);
 }
 
+/* The column titles  */
+.description-title {
+    color: black;
+}
+
+/* When hovering over the column titles  */
+.description-title:hover {
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+}
+
+/* Introduction */
 .divider {
     background-image: url(../img/1_black.jpg);
     background-repeat: no-repeat;
+    /* To cover the whole section */
     background-size: cover;
     background-position: center;
     height: 600px;
     text-align: center;
+    /* Changing the color of the text white */
     color: white;
 }
 
+/* Greeting */
 .divider > .greeting{
     /* top, right & left, bottom */
     padding: 144px 24px 25px;
 }
-
+/* Introduction */
 .divider > .introduction{
     /* top, right, bottom, left */
     margin: 0px 25% 0px 25%;
 }
 
+/* The social icons */
 .fab {
     color: white;
 }
@@ -84,10 +107,7 @@ footer {
     color: darkblue;
 }
 
-.top-five-details > li{
-    margin-bottom: 5px;
-}
-
+/* Contact button on the nav bar */
 .nav-item.nav-link button {
     background-color: black;
     border: none;
@@ -96,6 +116,7 @@ footer {
     transition: all 0.3s ease 0s;
 }
 
+/* When the mouse hovers above the contact me button */
 .nav-item.nav-link button:hover {
     background-color: darkblue;
 }
@@ -105,25 +126,11 @@ footer {
     margin-left: auto;
 }
 
-.description-title {
-    color: black;
-}
-
-.description-title:hover {
-    text-decoration: none;
-    color: rgb(69, 69, 69);
+.top-five-details > li{
+    margin-bottom: 5px;
 }
 
 .top-header {
     /* top, right, bottom, left */
     padding: 20px 10% 15px 10%;
 }
-
-/* 
-.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
-    display: none;
-}
-
-.navbar-toggler>.close {
-    display: inline;
-} */
