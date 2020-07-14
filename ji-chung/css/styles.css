@@ -36,7 +36,7 @@ footer {
 }
 
 /* Moving the two columns up, to be above the second section image */
-.container {
+.lifestyle {
     transform: translateY(-10%);
 }
 
@@ -73,6 +73,10 @@ footer {
 .divider > .introduction{
     /* top, right, bottom, left */
     margin: 0px 25% 0px 25%;
+}
+
+.experiences {
+    background-color: rgb(253, 235, 208);
 }
 
 /* The social icons */
@@ -124,6 +128,11 @@ footer {
 .navbar-nav {
     /* right-aligning it */
     margin-left: auto;
+}
+
+.professional-pic {
+    width: 246px;
+    height: 300px;
 }
 
 .top-five-details > li{
