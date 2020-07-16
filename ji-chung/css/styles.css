@@ -1,6 +1,18 @@
+hr {
+    margin: 40px;
+}
+
 /* Adding a black background image */
 footer {
     background-image: url(../img/black.png);
+}
+
+.ability-score {
+    float: right;
+}
+
+.ability-title {
+    text-align: left;
 }
 
 /* For the two columns */
@@ -33,6 +45,10 @@ footer {
     .col-md-6.right {
         border-radius: 0px 0px 15px 15px;
     }
+}
+
+.abilities > .container, .experiences > .container, .projects > .container {
+    padding: 10% 3%;
 }
 
 /* Moving the two columns up, to be above the second section image */
@@ -133,6 +149,10 @@ footer {
 .professional-pic {
     width: 246px;
     height: 300px;
+}
+
+.text-info {
+    padding: 0 15px 15px;
 }
 
 .top-five-details > li{
