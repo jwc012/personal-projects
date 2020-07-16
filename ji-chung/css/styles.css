@@ -12,24 +12,26 @@ footer {
 }
 
 .ability-title {
-    text-align: left;
+    display: inline-block;
+    padding-top: 3px;
+
 }
 
 /* For the two columns */
-.col-md-6 {
+.col-md-6.index {
     background-color: white;
     border: black outset;
     border-width: thin;
 }
 
 /* For the first/left column */
-.col-md-6.left {
+.col-md-6.index.left {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
 /* For the second/right column */
-.col-md-6.right {
+.col-md-6.index.right {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -37,18 +39,18 @@ footer {
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
     /* For the first/left column */
-    .col-md-6.left {
+    .col-md-6.index.left {
         /* top-left, top-right, bottom-right, bottom-left */
         border-radius: 15px 15px 0px 0px;
     }
     /* For the second/right column */
-    .col-md-6.right {
+    .col-md-6.index.right {
         border-radius: 0px 0px 15px 15px;
     }
 }
 
 .abilities > .container, .experiences > .container, .projects > .container {
-    padding: 10% 3%;
+    padding: 10% 5%;
 }
 
 /* Moving the two columns up, to be above the second section image */
@@ -144,6 +146,12 @@ footer {
 .navbar-nav {
     /* right-aligning it */
     margin-left: auto;
+}
+
+.no-bullet {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .professional-pic {
