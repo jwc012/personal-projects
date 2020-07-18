@@ -129,7 +129,7 @@ footer {
 
 .first-body {
     /* top & bottom, left & right */
-    padding: 40px 10%;
+    padding: 40px 10% 50px;
     text-align: center;
 }
 
@@ -200,9 +200,28 @@ footer {
     margin: 0px;
 }
 
+.personal-header {
+    background-image: url(../img/wood_header_3.png);
+    background-repeat: no-repeat;
+    /* To cover the whole section */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+
 .professional-pic {
-    width: 246px;
-    height: 300px;
+    width: 280px;
+    height: 360px;
+    padding-bottom: 15px;
+}
+
+/* When the width of the screen is lower or equal to 767 px */
+@media (max-width:767px) {
+    .col-md-auto.picture {
+        /* top, right, bottom, left */
+        padding: 0px
+    }
 }
 
 .professional-title{
