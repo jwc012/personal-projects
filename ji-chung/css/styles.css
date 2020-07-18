@@ -9,12 +9,12 @@ footer {
 
 .ability-score {
     float: right;
+    color: rgb(36, 163, 180);
 }
 
 .ability-title {
     display: inline-block;
     padding-top: 3px;
-
 }
 
 /* For the two columns */
@@ -50,7 +50,7 @@ footer {
 }
 
 .abilities > .container, .experiences > .container, .projects > .container {
-    padding: 10% 5%;
+    padding: 5% 5% 5%;
 }
 
 /* Moving the two columns up, to be above the second section image */
@@ -102,6 +102,11 @@ footer {
     color: white;
 }
 
+/* The social icons */
+.fab:hover {
+    color: rgb(36, 163, 180);
+}
+
 .first-body {
     /* top & bottom, left & right */
     padding: 40px 10%;
@@ -129,6 +134,15 @@ footer {
     color: darkblue;
 }
 
+.location {
+    text-decoration: none;
+    color: rgb(36, 163, 180);
+}
+
+.location:hover {
+    text-decoration: none;
+}
+
 /* Contact button on the nav bar */
 .nav-item.nav-link button {
     background-color: black;
@@ -154,13 +168,21 @@ footer {
     margin: 0px;
 }
 
+.professional {
+    color: rgb(36, 163, 180);
+}
+
 .professional-pic {
     width: 246px;
     height: 300px;
 }
 
+.role {
+    margin-bottom: 2px;
+}
+
 .text-info {
-    padding: 0 15px 15px;
+    margin: 0 15px 15px;
 }
 
 .top-five-details > li{
