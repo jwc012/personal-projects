@@ -178,7 +178,7 @@ footer {
 }
 
 .nav-item.nav-link.professional-header {
-    color: white
+    color: white;
 }
 
 .nav-item.nav-link.professional-header:hover {
@@ -209,7 +209,6 @@ footer {
     height: auto;
 }
 
-
 .professional-pic {
     width: 280px;
     height: 360px;
@@ -220,7 +219,7 @@ footer {
 @media (max-width:767px) {
     .col-md-auto.picture {
         /* top, right, bottom, left */
-        padding: 0px
+        padding: 0px;
     }
 }
 
