@@ -71,12 +71,13 @@ footer {
 
 /* Introduction */
 .divider {
-    background-image: url(../img/1_black.jpg);
+    background-image: url(../img/2_black.jpg);
     background-repeat: no-repeat;
     /* To cover the whole section */
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: auto;
+    padding-bottom: 10rem;
     text-align: center;
     /* Changing the color of the text white */
     color: white;
@@ -85,12 +86,31 @@ footer {
 /* Greeting */
 .divider > .greeting{
     /* top, right & left, bottom */
-    padding: 144px 24px 25px;
+    padding: 17% 24px 5%;
+    margin: 0px;
+    font-size: 4ch;
 }
+
 /* Introduction */
 .divider > .introduction{
     /* top, right, bottom, left */
     margin: 0px 25% 0px 25%;
+    font-size: 2ch;
+}
+
+/* When the width of the screen is lower or equal to 767 px */
+@media (max-width:767px) {
+        /* Greeting */
+    .divider > .greeting{
+        /* top, right & left, bottom */
+        font-size: 3ch;
+    }
+
+    /* Introduction */
+    .divider > .introduction{
+        /* top, right, bottom, left */
+        margin: 7% 2% 0px 2%;
+    }
 }
 
 .experiences, .projects {
@@ -157,6 +177,18 @@ footer {
     background-color: darkblue;
 }
 
+.nav-item.nav-link.professional-header {
+    color: white
+}
+
+.nav-item.nav-link.professional-header:hover {
+    color: rgb(36, 163, 180);
+}
+
+.nav-item.nav-link.professional-header button:hover {
+    background-color: rgb(36, 163, 180);
+}
+
 .navbar-nav {
     /* right-aligning it */
     margin-left: auto;
@@ -168,13 +200,13 @@ footer {
     margin: 0px;
 }
 
-.professional {
-    color: rgb(36, 163, 180);
-}
-
 .professional-pic {
     width: 246px;
     height: 300px;
+}
+
+.professional-title{
+    color: rgb(36, 163, 180);
 }
 
 .role {
@@ -192,4 +224,12 @@ footer {
 .top-header {
     /* top, right, bottom, left */
     padding: 20px 10% 15px 10%;
+}
+
+/* When the width of the screen is lower or equal to 767 px */
+@media (max-width:767px) {
+    .top-header {
+        /* top, right, bottom, left */
+        padding: 20px 0% 15px 0%;
+    }
 }
