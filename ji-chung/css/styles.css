@@ -1,3 +1,19 @@
+a.nav-item.nav-link.text-center.personal-header-text {
+    color: (255, 208, 0);
+}
+
+a.nav-item.nav-link.text-center.personal-header-text:hover {
+    color: red;
+}
+
+a.nav-item.nav-link.text-center.personal-header-text button:hover {
+    background-color: red;
+}
+
+body, html {
+    height: 100%;
+}
+
 hr {
     margin: 40px;
 }
@@ -15,6 +31,10 @@ footer {
 .ability-title {
     display: inline-block;
     padding-top: 3px;
+}
+
+.abilities > .container, .experiences > .container, .projects > .container {
+    padding: 5% 5% 5%;
 }
 
 /* For the two columns */
@@ -49,15 +69,6 @@ footer {
     }
 }
 
-.abilities > .container, .experiences > .container, .projects > .container {
-    padding: 5% 5% 5%;
-}
-
-/* Moving the two columns up, to be above the second section image */
-.lifestyle {
-    transform: translateY(-10%);
-}
-
 /* The column titles  */
 .description-title {
     color: black;
@@ -82,6 +93,20 @@ footer {
     /* Changing the color of the text white */
     color: white;
 }
+
+/* Introduction */
+.divider.personal {
+    background-image: url(../img/wood_1.jpg);
+    background-repeat: no-repeat;
+    /* To cover the whole section */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding-bottom: 10rem;
+    text-align: center;
+    color: white;
+}
+
 
 /* Greeting */
 .divider > .greeting{
@@ -133,6 +158,19 @@ footer {
     text-align: center;
 }
 
+.first-body.personal { 
+    /* The image used */
+    background-image: url(../img/camping.jpg);
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
 .first-body > .title {
     margin-bottom: 24px;
     font-weight: bold;
@@ -146,6 +184,11 @@ footer {
 
 .footer-copyright {
     font-size: normal;
+}
+
+/* Moving the two columns up, to be above the second section image */
+.lifestyle {
+    transform: translateY(-10%);
 }
 
 .list-title {
@@ -198,15 +241,6 @@ footer {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-}
-
-.personal-header {
-    background-image: url(../img/wood_header_2.jpg);
-    background-repeat: no-repeat;
-    /* To cover the whole section */
-    background-size: cover;
-    background-position: center;
-    height: auto;
 }
 
 .professional-pic {
