@@ -243,6 +243,33 @@ footer {
     margin: 0px;
 }
 
+.personal.about-me {
+    padding: 20% 0%;
+}
+
+.personal-icon {
+    color: black;
+}
+
+.personal-icon:hover {
+    color: red;
+}
+
+.personal.subtitle {
+    color: white;
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 4vw;
+}
+
+.personal.title {
+    color: white;
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 5vw;
+
+}
+
 .professional-pic {
     width: 280px;
     height: 360px;
@@ -252,7 +279,6 @@ footer {
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
     .col-md-auto.picture {
-        /* top, right, bottom, left */
         padding: 0px;
     }
 }
