@@ -94,20 +94,6 @@ footer {
     color: white;
 }
 
-/* Introduction */
-.divider.personal {
-    background-image: url(../img/wood_1.jpg);
-    background-repeat: no-repeat;
-    /* To cover the whole section */
-    background-size: cover;
-    background-position: center;
-    height: auto;
-    padding-bottom: 10rem;
-    text-align: center;
-    color: white;
-}
-
-
 /* Greeting */
 .divider > .greeting{
     /* top, right & left, bottom */
@@ -255,19 +241,30 @@ footer {
     color: red;
 }
 
+.personal.divider {
+    background-image: url(../img/wood_1.jpg);
+    background-repeat: no-repeat;
+    /* To cover the whole section */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding-bottom: 10rem;
+    text-align: center;
+    color: white;
+}
+
 .personal.subtitle {
     color: white;
-    margin-top: 10%;
-    margin-left: 50%;
-    font-size: 4vw;
+    padding: 30px 0px 30px 50%;
+    margin: 0px;
+    font-size: 3vh;
 }
 
 .personal.title {
     color: white;
-    margin-top: 10%;
-    margin-left: 50%;
-    font-size: 5vw;
-
+    padding: 30px 0px 30px 50%;
+    margin: 0px;
+    font-size: 3vh;
 }
 
 .professional-pic {
