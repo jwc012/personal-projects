@@ -69,6 +69,42 @@ footer {
     }
 }
 
+.contact-title {
+    font-size: 5vw;
+    color: darkblue;
+}
+
+.contact-info {
+    text-align: left;
+    display: block;
+    font-size: 1.4rem;
+    padding: 15px;
+    color: darkblue;
+
+}
+
+.contact-message {
+    height: 200px;
+}
+
+.contact-submit {
+    background-color: transparent;
+    border: solid;
+    border-color: darkblue;
+    color: darkblue;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-submit:hover {
+    background-color: darkblue;
+    border: solid;
+    border-color: darkblue;
+    color: white;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
 /* The column titles  */
 .description-title {
     color: black;

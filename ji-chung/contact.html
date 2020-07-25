@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Ji Chung | Contact</title>
+  <meta name="description" content="Ji Chung's Contact">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Personal Style sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/b5c08db859.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Top header nav bar -->
+  <header class="top-header" style="background-color: rgb(20, 20, 20);">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
+      <!-- Redirecting the user back to the front page of the website when clicking on the icon -->
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="img/logo_invert.jpg" alt="logo">
+      </a>
+      <!-- When the screen is small, the header nav bar will switch to hamburger icon/button. -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="toggle();">
+        <!-- The 'X' text which will only show when the nav-links shows up -->
+        <span class="my-1 mx-2 close d-none text-white">X</span>
+        <!-- The hamburger icon -->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- Various links that will redirect user to a different page -->
+          <a class="nav-item nav-link text-center professional-header" href="professional.html">Professional</a>
+          <a class="nav-item nav-link text-center professional-header" href="personal.html">Personal</a>
+          <a class="nav-item nav-link text-center" href="contact.html"><button>Contact</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="first-body">
+    <div class="container contact">
+      <h1 class="contact-title text-center">Hi!</h1>
+      <form action="contact-form.php">
+        <div class="row justify-content-md-center">
+          <div class="col-lg-5 contact-info">
+            <label>Name</label>
+            <br>
+            <input type="text" class="contact-name input-lg col-lg-12" name="name" size="25" required>
+          </div>
+          <div class="col-lg-5 contact-info">
+            <label>Email</label>
+            <br>
+            <input type="text" class="contact-email input-lg col-lg-12" name="email" size="25" required>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-lg-10 contact-info">
+            <label>Message</label>
+            <br>
+            <textarea class="contact-message input-lg col-lg-12" name="message" required></textarea>
+          </div>
+        </div>
+    
+        <input class="contact-submit" type="submit" value="Submit">
+    
+      </form>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>
