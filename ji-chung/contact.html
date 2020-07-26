@@ -23,7 +23,7 @@
         <img class="logo" src="img/logo_invert.jpg" alt="logo">
       </a>
       <!-- When the screen is small, the header nav bar will switch to hamburger icon/button. -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      <button class="navbar-toggler contact" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="toggle();">
         <!-- The 'X' text which will only show when the nav-links shows up -->
         <span class="my-1 mx-2 close d-none text-white">X</span>
@@ -34,7 +34,7 @@
         <div class="navbar-nav">
           <!-- Various links that will redirect user to a different page -->
           <a class="nav-item nav-link text-center professional-header" href="professional.html">Professional</a>
-          <a class="nav-item nav-link text-center professional-header" href="personal.html">Personal</a>
+          <a class="nav-item nav-link text-center contact-header" href="personal.html">Personal</a>
           <a class="nav-item nav-link text-center" href="contact.html"><button>Contact</button></a>
         </div>
       </div>
@@ -42,8 +42,9 @@
   </header>
   <div class="first-body">
     <div class="container contact">
-      <h1 class="contact-title text-center">Hi!</h1>
-      <form action="contact-form.php">
+      <img class="contact-avatar" src="img/avatar_transparent.png" alt="avatar">
+      <h1 class="contact-title text-center">Hi! <br>It is a pleasure to meet you.</h1>
+      <form name="contact-form" action="contact-form.php">
         <div class="row justify-content-md-center">
           <div class="col-lg-5 contact-info">
             <label>Name</label>
@@ -63,22 +64,22 @@
             <textarea class="contact-message input-lg col-lg-12" name="message" required></textarea>
           </div>
         </div>
-    
-        <input class="contact-submit" type="submit" value="Submit">
-    
+
+        <input class="contact-submit" type="submit" value="Submit" onclick="succes();">
+
       </form>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-  crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-  crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-  crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

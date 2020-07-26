@@ -22,3 +22,9 @@ function toggle() {
     closeButton.classList.add('d-none');
   }
 }
+
+function success() {
+  let contactForm = document.getElementsByName('contact-form')[0];
+  contactForm.reset();
+  window.location = "success.html"
+}
