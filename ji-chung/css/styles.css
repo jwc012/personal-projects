@@ -241,6 +241,14 @@ footer {
     font-size: normal;
 }
 
+.index-professional:hover {
+    color: rgb(36, 163, 180);
+}
+
+.index-personal:hover {
+    color: red;
+}
+
 /* Moving the two columns up, to be above the second section image */
 .lifestyle {
     transform: translateY(-10%);
@@ -355,6 +363,45 @@ footer {
 
 .role {
     margin-bottom: 2px;
+}
+
+.success {
+    padding-top: 50%;
+}
+
+.success-home-button {
+    background-color: transparent;
+    border: solid;
+    border-color: darkorchid;
+    color: darkorchid;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px
+}
+
+.success-home-button:hover {
+    background-color: darkorchid;
+    border: solid;
+    border-color: darkorchid;
+    color: white;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px
+}
+
+.success-mail-icon {
+    color:darkorchid;
+    padding-bottom: 10px;
+}
+
+.success-subtitle {
+    padding-top: 10px;
 }
 
 .text-info {
