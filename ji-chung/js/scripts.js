@@ -23,8 +23,32 @@ function toggle() {
   }
 }
 
-function success() {
-  let contactForm = document.getElementsByName('contact-form')[0];
-  contactForm.reset();
-  window.location = "success.html"
+function submitToAPI(e) {
+
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var email_body = $("#message").val();
+  var data = {
+     name : name,
+     email : email,
+     email_body : email_body
+   };
+
+  $.ajax({
+    type: "POST",
+    url : "https://8mhiibyvi6.execute-api.us-west-1.amazonaws.com/prod/contact-us-submit",
+    dataType: "json",
+    crossDomain: "true",
+    contentType: "application/json; charset=utf-8",
+    data: JSON.stringify(data),
+    
+    success: function () {
+      // clear form and show a success message
+      document.getElementById("contact-form").reset();
+      window.location = "success.html";
+    },
+    error: function () {
+      // show an error message
+      alert("UnSuccessfull");
+    }});
 }
