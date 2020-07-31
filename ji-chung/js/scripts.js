@@ -31,7 +31,7 @@ function submitToAPI(e) {
   var data = {
      name : name,
      email : email,
-     email_body : email_body
+     message : email_body
    };
 
   $.ajax({
