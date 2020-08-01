@@ -7,7 +7,7 @@ function toggle() {
   let closeButton = document.getElementsByClassName('my-1 mx-2 close')[0];
   // Getting the hamburger icon
   let hamburgerButton = document.getElementsByClassName('navbar-toggler-icon')[0];
-  
+
   // If the nav-bar is not collapsed. The links are displayed
   if (navBarExpanded === 'false') {
     //  Add the text into the hamburger icon, which will hide the html code, using bootstrap code
@@ -24,31 +24,39 @@ function toggle() {
 }
 
 function submitToAPI(e) {
+  e.preventDefault();
 
-  var name = $("#name").val();
-  var email = $("#email").val();
-  var email_body = $("#message").val();
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+
+  if (name == "" || email == "" || message == "") {
+    alert("Please Fill Out All Required Fields");
+    return false;
+  }
+
   var data = {
-     name : name,
-     email : email,
-     message : email_body
-   };
+    name: name,
+    email: email,
+    message: message
+  };
 
   $.ajax({
-    type: "POST",
-    url : "https://gkll4y87vj.execute-api.us-west-2.amazonaws.com/prod",
-    dataType: "json",
-    crossDomain: "true",
-    contentType: "application/json; charset=utf-8",
+    type: 'POST',
+    url: 'https://hp1rv0479f.execute-api.us-west-2.amazonaws.com/prod/contact-submit',
+    dataType: 'json',
+    crossDomain: 'true',
+    contentType: 'application/json; charset=utf-8',
     data: JSON.stringify(data),
-    
+
     success: function () {
+      window.location = 'success.html';
       // clear form and show a success message
-      document.getElementById("contact-form").reset();
-      window.location = "success.html";
+      document.getElementById('contact-form').reset();
     },
     error: function () {
       // show an error message
-      alert("UnSuccessfull");
-    }});
+      alert('UnSuccessful');
+    }
+  });
 }
