@@ -36,8 +36,7 @@ footer {
 /* For the two columns */
 .col-md-6.index {
     background-color: white;
-    border: black outset;
-    border-width: thin;
+    border: thin outset black;
 }
 
 /* For the first/left column */
@@ -57,11 +56,11 @@ footer {
     /* For the first/left column */
     .col-md-6.index.left {
         /* top-left, top-right, bottom-right, bottom-left */
-        border-radius: 15px 15px 0px 0px;
+        border-radius: 15px 15px 0 0;
     }
     /* For the second/right column */
     .col-md-6.index.right {
-        border-radius: 0px 0px 15px 15px;
+        border-radius: 0 0 15px 15px;
     }
 }
 
@@ -110,8 +109,7 @@ footer {
 
 .contact-submit {
     background-color: transparent;
-    border: solid;
-    border-color: darkblue;
+    border: solid darkblue;
     color: darkblue;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
@@ -123,8 +121,7 @@ footer {
 
 .contact-submit:hover {
     background-color: darkblue;
-    border: solid;
-    border-color: darkblue;
+    border: solid darkblue;
     color: white;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
@@ -163,14 +160,14 @@ footer {
 .divider > .greeting{
     /* top, right & left, bottom */
     padding: 17% 24px 5%;
-    margin: 0px;
+    margin: 0;
     font-size: 4ch;
 }
 
 /* Introduction */
 .divider > .introduction{
     /* top, right, bottom, left */
-    margin: 0px 25% 0px 25%;
+    margin: 0 25% 0 25%;
     font-size: 2ch;
 }
 
@@ -185,7 +182,7 @@ footer {
     /* Introduction */
     .divider > .introduction{
         /* top, right, bottom, left */
-        margin: 7% 2% 0px 2%;
+        margin: 7% 2% 0 2%;
     }
 }
 
@@ -234,7 +231,7 @@ footer {
 }
 
 .footer-copyright {
-    font-size: normal;
+    font-size: 16px;
 }
 
 .index-professional:hover {
@@ -298,12 +295,12 @@ footer {
 
 .no-bullet {
     list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .personal.about-me {
-    padding: 20% 0%;
+    padding: 20% 0;
 }
 
 .personal-icon {
@@ -357,15 +354,15 @@ footer {
 
 .personal.subtitle {
     color: white;
-    padding: 30px 0px 30px 50%;
-    margin: 0px;
+    padding: 30px 0 30px 50%;
+    margin: 0;
     font-size: 3vh;
 }
 
 .personal.title {
     color: white;
-    padding: 30px 0px 30px 50%;
-    margin: 0px;
+    padding: 30px 0 30px 50%;
+    margin: 0;
     font-size: 3vh;
 }
 
@@ -378,7 +375,7 @@ footer {
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
     .col-md-auto.picture {
-        padding: 0px;
+        padding: 0;
     }
 }
 
@@ -398,7 +395,7 @@ footer {
 }
 
 .professional-img-container:hover .professional-projects-1-overlay{
-    background: rgb(36, 163, 180, .7);
+    background: rgba(36, 163, 180, .7);
     opacity: 1;
 }
 
@@ -427,8 +424,7 @@ footer {
 
 .success-home-button {
     background-color: transparent;
-    border: solid;
-    border-color: darkorchid;
+    border: solid darkorchid;
     color: darkorchid;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
@@ -440,8 +436,7 @@ footer {
 
 .success-home-button:hover {
     background-color: darkorchid;
-    border: solid;
-    border-color: darkorchid;
+    border: solid darkorchid;
     color: white;
     border-radius: 50px;
     transition: all 0.3s ease 0s;
@@ -477,6 +472,6 @@ footer {
 @media (max-width:767px) {
     .top-header {
         /* top, right, bottom, left */
-        padding: 20px 0% 15px 0%;
+        padding: 20px 0 15px 0;
     }
 }
