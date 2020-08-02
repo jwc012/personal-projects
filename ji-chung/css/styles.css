@@ -321,9 +321,38 @@ footer {
     background-size: cover;
     background-position: center;
     height: auto;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     text-align: center;
-    color: white;
+    color: lightblue;
+}
+
+.personal-gallery {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.personal-gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.personal-gallery-column {
+    flex: 25%;
+    width: auto;
+    padding: 0 4px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.personal-gallery-column img {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 5px;
 }
 
 .personal.subtitle {
@@ -351,6 +380,36 @@ footer {
     .col-md-auto.picture {
         padding: 0px;
     }
+}
+
+.professional-img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.professional-projects-1-overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.professional-img-container:hover .professional-projects-1-overlay{
+    background: rgb(36, 163, 180, .7);
+    opacity: 1;
+}
+
+.professional-projects-1-text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .professional-title{
