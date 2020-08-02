@@ -1,56 +1,37 @@
-a.nav-item.nav-link.text-center.personal-header-text:hover {
-    color: red;
-}
+a.nav-item.nav-link.text-center.personal-header-text:hover { color: red; }
+a.nav-item.nav-link.text-center.personal-header-text button:hover { background-color: red; }
 
-a.nav-item.nav-link.text-center.personal-header-text button:hover {
-    background-color: red;
-}
-
-body, html {
-    height: 100%;
-}
-
-hr {
-    margin: 40px;
-}
+body, html { height: 100%; }
+hr { margin: 40px; }
 
 /* Adding a black background image */
-footer {
-    background-image: url(../img/black.png);
-}
+footer { background-image: url(../img/black.png); }
 
 .ability-score {
     float: right;
     color: rgb(36, 163, 180);
 }
-
 .ability-title {
     display: inline-block;
     padding-top: 3px;
 }
+.abilities > .container, .experiences > .container, .projects > .container { padding: 5% 5% 5%; }
 
-.abilities > .container, .experiences > .container, .projects > .container {
-    padding: 5% 5% 5%;
-}
-
-/* For the two columns */
-.col-md-6.index {
+/* For the two index.html columns */
+.col-md-6.index { 
     background-color: white;
     border: thin outset black;
 }
-
-/* For the first/left column */
+/* For the first/left index.html column */
 .col-md-6.index.left {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-
-/* For the second/right column */
+/* For the second/right index.html column */
 .col-md-6.index.right {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
     /* For the first/left column */
@@ -64,6 +45,7 @@ footer {
     }
 }
 
+/* Contact Page avatar */
 .contact-avatar {
     margin-top: -130px;
     width: 237px;
@@ -72,7 +54,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:991px) {
     /* For the first/left column */
@@ -81,13 +62,8 @@ footer {
     }
 }
 
-.nav-item.nav-link.text-center.contact-header {
-    color: white;
-}
-
-.nav-item.nav-link.text-center.contact-header:hover {
-    color: red;
-}
+.nav-item.nav-link.text-center.contact-header { color: white; }
+.nav-item.nav-link.text-center.contact-header:hover { color: red; }
 
 .contact-info {
     text-align: left;
@@ -98,15 +74,11 @@ footer {
 
 }
 
-.contact-message {
-    height: 200px;
-}
-
+.contact-message { height: 200px; }
 .contact-name, .contact-email, .contact-message {
     border-radius: 5px;
     border-width: thin;
 }
-
 .contact-submit {
     background-color: transparent;
     border: solid darkblue;
@@ -118,7 +90,6 @@ footer {
     width: 200px;
     margin-top: 10px
 }
-
 .contact-submit:hover {
     background-color: darkblue;
     border: solid darkblue;
@@ -126,17 +97,10 @@ footer {
     border-radius: 50px;
     transition: all 0.3s ease 0s;
 }
+.contact-title { color: darkblue; }
 
-.contact-title {
-    color: darkblue;
-}
-
-/* The column titles  */
-.description-title {
-    color: black;
-}
-
-/* When hovering over the column titles  */
+.description-title { color: black;}
+/* When hovering over the index.html column titles  */
 .description-title:hover {
     text-decoration: none;
     color: rgb(69, 69, 69);
@@ -155,7 +119,6 @@ footer {
     /* Changing the color of the text white */
     color: white;
 }
-
 /* Greeting */
 .divider > .greeting{
     /* top, right & left, bottom */
@@ -163,14 +126,12 @@ footer {
     margin: 0;
     font-size: 4ch;
 }
-
 /* Introduction */
 .divider > .introduction{
     /* top, right, bottom, left */
     margin: 0 25% 0 25%;
     font-size: 2ch;
 }
-
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
         /* Greeting */
@@ -178,7 +139,6 @@ footer {
         /* top, right & left, bottom */
         font-size: 3ch;
     }
-
     /* Introduction */
     .divider > .introduction{
         /* top, right, bottom, left */
@@ -186,26 +146,18 @@ footer {
     }
 }
 
-.experiences, .projects {
-    background-color: rgb(253, 235, 208);
-}
+.experiences, .projects { background-color: rgb(253, 235, 208); }
 
 /* The social icons */
-.fab {
-    color: white;
-}
-
+.fab { color: white; }
 /* The social icons */
-.fab:hover {
-    color: rgb(36, 163, 180);
-}
+.fab:hover { color: rgb(36, 163, 180); }
 
 .first-body {
     /* top & bottom, left & right */
     padding: 40px 10% 50px;
     text-align: center;
 }
-
 .first-body.personal { 
     /* The image used */
     background-image: url(../img/camping.jpg);
@@ -217,35 +169,23 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-
 .first-body > .title {
     margin-bottom: 24px;
     font-weight: bold;
 }
-
 .first-body > .subtitle {
     margin-bottom: 24px;
     font-weight: 300;
     font-size: x-large;
 }
 
-.footer-copyright {
-    font-size: 16px;
-}
+.footer-copyright { font-size: 16px; }
 
-.index-professional:hover {
-    color: rgb(36, 163, 180);
-}
+.index-professional:hover { color: rgb(36, 163, 180); }
+.index-personal:hover { color: red; }
 
-.index-personal:hover {
-    color: red;
-}
-
-/* Moving the two columns up, to be above the second section image */
-.lifestyle {
-    transform: translateY(-10%);
-}
+/* Moving the two index.html columns up, to be above the second section image */
+.lifestyle { transform: translateY(-10%); }
 
 .list-title {
     margin-bottom: 8px;
@@ -257,10 +197,7 @@ footer {
     text-decoration: none;
     color: rgb(36, 163, 180);
 }
-
-.location:hover {
-    text-decoration: none;
-}
+.location:hover { text-decoration: none; }
 
 /* Contact button on the nav bar */
 .nav-item.nav-link button {
@@ -270,23 +207,12 @@ footer {
     border-radius: 50px;
     transition: all 0.3s ease 0s;
 }
+/* When the mouse hovers above the index.html contact me button */
+.nav-item.nav-link button:hover { background-color: darkblue; }
 
-/* When the mouse hovers above the contact me button */
-.nav-item.nav-link button:hover {
-    background-color: darkblue;
-}
-
-.nav-item.nav-link.professional-header {
-    color: white;
-}
-
-.nav-item.nav-link.professional-header:hover {
-    color: rgb(36, 163, 180);
-}
-
-.nav-item.nav-link.professional-header button:hover {
-    background-color: rgb(36, 163, 180);
-}
+.nav-item.nav-link.professional-header { color: white; }
+.nav-item.nav-link.professional-header:hover { color: rgb(36, 163, 180); }
+.nav-item.nav-link.professional-header button:hover { background-color: rgb(36, 163, 180); }
 
 .navbar-nav {
     /* right-aligning it */
@@ -299,18 +225,9 @@ footer {
     margin: 0;
 }
 
-.personal.about-me {
-    padding: 20% 0;
-}
-
-.personal-icon {
-    color: black;
-}
-
-.personal-icon:hover {
-    color: red;
-}
-
+.personal.about-me { padding: 20% 0; }
+.personal-icon { color: black; }
+.personal-icon:hover { color: red; }
 .personal.divider {
     background-image: url(../img/wood_1.jpg);
     background-repeat: no-repeat;
@@ -320,14 +237,12 @@ footer {
     height: auto;
     padding-bottom: 5rem;
     text-align: center;
-    color: lightblue;
+    color: rgb(243, 255, 78);
 }
-
 .personal-gallery {
     margin-top: 4px;
     margin-bottom: 4px;
 }
-
 .personal-gallery-row {
     display: flex;
     flex-wrap: wrap;
@@ -335,7 +250,6 @@ footer {
     border-radius: 5px;
     width: 100%;
 }
-
 .personal-gallery-column {
     flex: 25%;
     width: auto;
@@ -343,7 +257,6 @@ footer {
     overflow: hidden;
     height: 100%;
 }
-
 .personal-gallery-column img {
     width: 100%;
     height: 100%;
@@ -351,14 +264,12 @@ footer {
     margin-bottom: 3%;
     border-radius: 5px;
 }
-
 .personal.subtitle {
     color: white;
     padding: 30px 0 30px 50%;
     margin: 0;
     font-size: 3vh;
 }
-
 .personal.title {
     color: white;
     padding: 30px 0 30px 50%;
@@ -371,19 +282,16 @@ footer {
     height: 360px;
     padding-bottom: 15px;
 }
-
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
     .col-md-auto.picture {
         padding: 0;
     }
 }
-
 .professional-img-container {
     position: relative;
     display: inline-block;
 }
-
 .professional-projects-1-overlay {
     position:absolute;
     top: 0;
@@ -393,12 +301,10 @@ footer {
     opacity: 0;
     transition: all 0.5s ease 0s;
 }
-
 .professional-img-container:hover .professional-projects-1-overlay{
     background: rgba(36, 163, 180, .7);
     opacity: 1;
 }
-
 .professional-projects-1-text {
     position:absolute;
     top: 50%;
@@ -408,20 +314,14 @@ footer {
     font-size: 24px;
     font-weight: bold;
 }
+.professional-title{ color: rgb(36, 163, 180); }
 
-.professional-title{
-    color: rgb(36, 163, 180);
-}
-
-.role {
-    margin-bottom: 2px;
-}
+.role { margin-bottom: 2px; }
 
 .success {
     padding-top: 15%;
     padding-bottom: 15%;
 }
-
 .success-home-button {
     background-color: transparent;
     border: solid darkorchid;
@@ -433,7 +333,6 @@ footer {
     width: 200px;
     margin-top: 20px
 }
-
 .success-home-button:hover {
     background-color: darkorchid;
     border: solid darkorchid;
@@ -445,29 +344,20 @@ footer {
     width: 200px;
     margin-top: 20px
 }
-
 .success-mail-icon {
     color:darkorchid;
     padding-bottom: 10px;
 }
+.success-subtitle { padding-top: 10px; }
 
-.success-subtitle {
-    padding-top: 10px;
-}
+.text-info { margin: 0 15px 15px; }
 
-.text-info {
-    margin: 0 15px 15px;
-}
-
-.top-five-details > li{
-    margin-bottom: 5px;
-}
+.top-five-details > li { margin-bottom: 5px; }
 
 .top-header {
     /* top, right, bottom, left */
     padding: 20px 10% 15px 10%;
 }
-
 /* When the width of the screen is lower or equal to 767 px */
 @media (max-width:767px) {
     .top-header {
