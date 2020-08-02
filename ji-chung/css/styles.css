@@ -5,7 +5,7 @@ body, html { height: 100%; }
 hr { margin: 40px; }
 
 /* Adding a black background image */
-footer { background-image: url(../img/black.png); }
+footer { background-image: url(http://d3dn77xohr0wdb.cloudfront.net/img/black.png); }
 
 .ability-score {
     float: right;
@@ -108,7 +108,7 @@ footer { background-image: url(../img/black.png); }
 
 /* Introduction */
 .divider {
-    background-image: url(../img/2_black.jpg);
+    background-image: url(http://d3dn77xohr0wdb.cloudfront.net/img/2_black.jpg);
     background-repeat: no-repeat;
     /* To cover the whole section */
     background-size: cover;
@@ -160,7 +160,7 @@ footer { background-image: url(../img/black.png); }
 }
 .first-body.personal { 
     /* The image used */
-    background-image: url(../img/camping.jpg);
+    background-image: url(http://d3dn77xohr0wdb.cloudfront.net/img/camping.jpg);
     /* Full height */
     height: 100%; 
     width: 100%;
@@ -229,7 +229,7 @@ footer { background-image: url(../img/black.png); }
 .personal-icon { color: black; }
 .personal-icon:hover { color: red; }
 .personal.divider {
-    background-image: url(../img/wood_1.jpg);
+    background-image: url(http://d3dn77xohr0wdb.cloudfront.net/img/wood_1.jpg);
     background-repeat: no-repeat;
     /* To cover the whole section */
     background-size: cover;
