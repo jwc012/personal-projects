@@ -11,11 +11,14 @@ This is coded in Java.
 - It also has pages where it can inform users about herself as well as how to take care of the slimes 
 - It is built, utilizing HTML, CSS, and JavaScript and deployed on AWS. 
 
-http://fancysqueeze.com/
+## ji-chung
+- A personal website to showcase my professional and personal experiences
+- Developed in HTML, CSS, JavaScript, and Bootstrap
+- Deployed on AWS
+- Utilizes Lambda, API gateway, S3, Route53, and CloudFront
+
+http://jiwchung.com/
+
 
 ## vending-machine
 A OOD design, in Java, of a vending machine.
-
-## ji-chung
-- A personal website to showcase my professional and personal experiences
-- My personal journey
