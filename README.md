@@ -15,7 +15,7 @@ This is coded in Java.
 - A personal website to showcase my professional and personal experiences
 - Developed in HTML, CSS, JavaScript, and Bootstrap
 - Deployed on AWS
-- Utilizes Lambda, API gateway, S3, Route53, and CloudFront
+- Utilizes Lambda, API Gateway, S3, Route53, and CloudFront
 
 http://jiwchung.com/
 
