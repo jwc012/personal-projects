@@ -1,7 +1,7 @@
 a.nav-item.nav-link.text-center.personal-header-text:hover { color: red; }
 a.nav-item.nav-link.text-center.personal-header-text button:hover { background-color: red; }
 
-body, html { height: 100%; }
+body, html, main { height: 100%; }
 hr { margin: 40px; }
 
 /* Adding a black background image */
